@@ -1,3 +1,3 @@
 # webhall
 web example
-#HW1 https://github.com/jmfxxx/webhell/blob/master/hw1.htm
+#HW1 https://jmfxxx.github.io/webhell/hw1.htm
