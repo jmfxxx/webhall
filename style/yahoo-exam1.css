@@ -1,0 +1,124 @@
+.clearfix {
+	clear: both;
+}
+body {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	max-width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 1.2em;
+	font-weight: 200;
+	/* background-color: #bcd; */
+}
+nav {
+	background-color: rgb(6, 121, 253);
+}
+nav a {
+	/* display:inline-block; */
+	font-size: 1em;
+	font-weight: 700;
+	text-decoration: none;
+	color: #fff;
+	margin: 10px;
+	display: inline-block;
+}
+nav a:hover {
+	color: silver;
+}
+.content {
+	width: 70%;
+	/* background-color: #ffa; */
+	float: left;
+	margin-top: 20px;
+}
+.top-content .pic {
+	width: 50%;
+	float: left;
+}
+
+.top-content .pic img {
+	display: block;
+	margin: auto;
+}
+.top-content .item {
+	width: 50%;
+	float: left;
+}
+/* .top-content ul {
+    display:block;
+    float:left;
+} */
+.top-content ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+.top-content ul li a:hover {
+	color: blue;
+	text-decoration: none;
+}
+
+.subcontent1 ul li a,
+.subcontent2 ul li a {
+	text-decoration: none;
+	color: black;
+}
+.subcontent1 ul li a:hover,
+.subcontent2 ul li a:hover {
+	color: blue;
+	text-decoration: none;
+}
+.subcontent1,
+.subcontent2 {
+	width: 50%;
+	float: left;
+}
+.subcontent1 h1,
+.subcontent2 h1 {
+	font-size: 1.5em;
+	font-weight: 200;
+	display: inline-block;
+}
+.subcontent1 i,
+.subcontent2 i {
+	margin-left: 15px;
+	font-size: 1.5em;
+
+	display: inline-block;
+}
+.subcontent1 img,
+.subcontent2 img {
+	display: block;
+	margin: auto;
+}
+.subcontent1 li a,
+.subcontent2 li a {
+	text-decoration: none;
+	font-size: 1em;
+	font-weight: 200;
+}
+
+.aside {
+	margin-top: 20px;
+	width: 30%;
+	/* background-color: #faf; */
+	float: left;
+}
+.aside h1 {
+	font-size: 1.5em;
+	font-weight: 200;
+}
+.aside img {
+	display: block;
+	margin: auto;
+}
+
+footer {
+	display: block;
+	font-size: 1.1em;
+	text-align: center;
+	line-height: 1.2em;
+	color: #fff;
+	background-color: rgb(6, 121, 253);
+}
